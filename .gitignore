@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.egg-info/
+dist/
+build/
+exports/
+.DS_Store
+.claude/
