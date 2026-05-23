@@ -129,7 +129,7 @@ def render_moderator_note(
     console.print(
         Panel(
             f"[dim]{escape(note)}[/dim]\n\nConsensus confidence: [{bar}] {confidence:.0%}{variance_line}",
-            title="[dim]Moderator[/dim]",
+            title="[dim]Moderator — Round Assessment[/dim]",
             border_style="dim",
         )
     )

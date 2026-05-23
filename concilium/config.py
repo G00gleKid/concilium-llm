@@ -29,7 +29,7 @@ ROLES_MODES = ("default", "archetypes", "free", "models")
 
 @dataclass
 class Config:
-    max_iterations: int = 10
+    max_iterations: int = 4
     roles_mode: str = "default"  # "default" | "archetypes" | "free" | "models"
     orchestrator_model: str = MODEL_TIERS[DEFAULT_TIER]["orchestrator"]
     expert_models: list[str] = field(default_factory=lambda: list(MODEL_TIERS[DEFAULT_TIER]["experts"]))
